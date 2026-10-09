@@ -229,8 +229,8 @@ except Exception as e:
     st.stop()
 
 # Load trained XGBoost model
-xgb_model = joblib.load("models/xgboost_model.pkl")
-xgb_features = joblib.load("models/xgboost_features.pkl")
+xgb_model = joblib.load("xgboost_model.pkl")
+xgb_features = joblib.load("xgboost_features.pkl")
 
 # --------------------------------------------------
 # NAVBAR
